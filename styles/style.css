@@ -3,9 +3,18 @@
 }
 
 .gradient-background {
-  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background: linear-gradient(300deg, #6B28C8, #0F926F, #0BA360);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
+}
+
+.padding-for-gradient {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.testimonial-name {
+  font-size: 2rem;
 }
 
 @keyframes gradient-animation {
@@ -55,6 +64,7 @@
   position: relative;
   z-index: 1;
   background-color: white;
-  padding-top: 10px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
