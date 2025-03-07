@@ -9,13 +9,27 @@
 }
 
 .padding-for-gradient {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
+.padding-for-gradient-small {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-margin {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
 .testimonial-name {
   font-size: 2rem;
 }
+
+.list-indent {
+  margin-left: 5rem; /* Adjust the left margin as needed */
+}
+
 
 @keyframes gradient-animation {
   0% {
@@ -36,7 +50,7 @@
 }
 
 .profile-img {
-  height: 200px;
+  height: 150px;
   border-radius: 50%;
 }
 
