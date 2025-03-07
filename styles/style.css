@@ -13,21 +13,17 @@
   padding-bottom: 75px;
 }
 
-.padding-for-gradient-small {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
 .section-margin {
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
-.testimonial-name {
+
+.resume-name {
   font-size: 2rem;
 }
 
 .list-indent {
-  margin-left: 5rem; /* Adjust the left margin as needed */
+  margin-left: 5rem;
 }
 
 
