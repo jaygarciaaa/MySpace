@@ -13,21 +13,11 @@
 }
 
 .carousel-item-content {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-}
-
-.carousel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.carousel-item-content {
-  position: relative;
 }
 
 .carousel-item-content::after {
@@ -40,6 +30,12 @@
   background: rgba(0, 0, 0, 0.6);
   filter: blur(15px);
   z-index: 1;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .carousel-caption {

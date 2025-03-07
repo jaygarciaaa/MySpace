@@ -2,12 +2,6 @@
   padding-bottom: 6rem;
 }
 
-.gradient-background {
-  background: linear-gradient(300deg, #6B28C8, #0F926F, #0BA360);
-  background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
-}
-
 .padding-for-gradient {
   padding-top: 75px;
   padding-bottom: 75px;
@@ -26,19 +20,6 @@
   margin-left: 5rem;
 }
 
-
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 .icon-square {
   width: 3rem;
   height: 3rem;
@@ -48,21 +29,6 @@
 .profile-img {
   height: 150px;
   border-radius: 50%;
-}
-
-@keyframes slideUp {
-  from {
-      transform: translateY(100px);
-      opacity: 0;
-  }
-  to {
-      transform: translateY(0);
-      opacity: 1;
-  }
-}
-
-.slide-up {
-  animation: slideUp 1s ease-out;
 }
 
 .margin-negative {
