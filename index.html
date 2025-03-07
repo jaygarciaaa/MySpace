@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles/style.css" />
-  <link rel="stylesheet" href="./styles/iphone.css" >
+  <link rel="stylesheet" href="./styles/iphone.css" />
+  <link rel="stylesheet" href="./styles/carousel.css" />
   <title>Profile Portfolio</title>
 </head>
 
@@ -101,8 +102,8 @@
 
   <!-- Resume -->
   <section id="resume" class="section-margin">
-    <div class="container p-5 m-5 mx-auto bg-body-tertiary rounded-3"">
-      <div class="text-center bg-body-tertiary">
+    <div class="container p-5 m-5 mx-auto bg-body-secondary rounded-5"">
+      <div class="text-center bg-body-secondary">
         <div class="container">
           <h2 class="text-body-emphasis">"MySpace is a profile portfolio that can be read as a resume. <br>
             This is where you can see my experiences, expertise, <br>
@@ -151,7 +152,7 @@
 
   <!-- Personal Details -->
   <section id="personalDetails" class="section-margin">
-    <div class="container px-5 py-4 m-5 mx-auto bg-body-tertiary rounded-3">
+    <div class="container px-5 py-4 m-5 mx-auto bg-body-secondary rounded-5">
       <div class="mb-5">
         <h1 class="display-5 fw-bold">Personal Details</h1>
       </div>
@@ -165,7 +166,7 @@
         </div>
         <div class="col-6">
           <p class="fs-3 px-5">John Michael Garcia</p>
-          <p class="fs-3 px-5">20 Years Old</p>
+          <p class="fs-3 px-5">25 Years Old</p>
           <p class="fs-3 px-5">San Juan, Metro Manila, Philippines</p>
           <p class="fs-3 px-5">Filipino</p>
           <p class="fs-3 px-5">Tagalog, English</p>
@@ -181,7 +182,7 @@
 
   <!-- Experiences and Expertise -->
   <section id="experienceAndExpertise" class="section-margin">
-    <div class="container px-5 py-4 m-5 mx-auto bg-body-tertiary rounded-3">
+    <div class="container px-5 py-4 m-5 mx-auto bg-body-secondary rounded-5">
       <div class="mb-5">
         <h1 class="display-5 fw-bold">Experiences and Expertise</h1>
       </div>
@@ -231,55 +232,81 @@
     <div class="padding-for-gradient-small"></div>
   </section>
 
-  <!-- Career Aspirations -->
-  <section id="careerAspirations" class="section-margin">
-    <div class="container px-5 py-4 m-5 mx-auto bg-body-tertiary rounded-3">
+  <!-- Career Ambitions -->
+  <section id="careerAmbitions" class="section-margin">
+    <div class="container px-5 py-4 pb-5 m-5  mx-auto bg-body-secondary rounded-5">
       <div class="mb-4">
-        <h1 class="display-5 fw-bold">Career Aspirations</h1>
+        <h1 class="display-5 fw-bold">Career Ambitions</h1>
       </div>
 
-      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div id="carouselExampleCaptions" class="carousel slide pt-2" style="max-width: 90%; margin: 0 auto;">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+          
+          <div class="carousel-item active">
+            <div class="carousel-item-content">
+              <img src="./assets/images/blockchain.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Blockchain">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="display-6" >Blockchain</h5>
+                <p class="fs-5">Blockchain technology revolutionizes digital transactions by offering decentralized, transparent, and secure solutions.</p>
+              </div>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
+          
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+            <div class="carousel-item-content">
+              <img src="./assets/images/nvidia_santa_clara_hq.jpg" class="d-block w-100 h-100 object-fit-cover" alt="NVIDIA Santa Clara Headquarters">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="display-6" >Nvidia</h5>
+                <p class="fs-5">Nvidia leads the AI and graphics industry with cutting-edge <br>GPUs that power gaming, machine learning, and data centers.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-item-content">
+              <img src="./assets/images/ibm.jpg" class="d-block w-100 h-100 object-fit-cover" alt="IBM">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="display-6" >IBM</h5>
+                <p class="fs-5">IBM is at the forefront of technological innovation, focusing on AI, quantum computing, and blockchain for enterprise solutions.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-item-content">
+              <img src="./assets/images/ethereum.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="Ethereum">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="display-6" >Ethereum</h5>
+                <p class="fs-5">Ethereum is a decentralized platform that enables smart contracts and decentralized applications (dApps) on its blockchain.</p>
+              </div>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+      </div>      
 
     </div>
   </section>
 
+  <!-- Gradient Space -->
+  <section class="gradient-background">
+    <div class="padding-for-gradient-small"></div>
+  </section>
+  
   <!-- Footer -->
   <section id="footer" class="gradient-background">
     <div class="container">
@@ -328,7 +355,9 @@
     </div>
   </section>
   
-  <script src="./scripts/script.js"></script>
+  <script src="./scripts/aboutMe.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
