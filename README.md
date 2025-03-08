@@ -2,4 +2,4 @@
 A simple profile portfolio about myself
 
 access here:
-https://jaygarciaaa.github.io/profile-portfolio/
+https://jaygarciaaa.github.io/MySpace/
