@@ -12,7 +12,7 @@ function smoothScroll(target, offset) {
   }, 100);
 }
 
-function triggerSectionAnimations(elements, hasAnimated, initialDelay = 300) {
+function triggerSectionAnimations(elements, hasAnimated, initialDelay = 200) {
   if (hasAnimated.value) return;
 
   setTimeout(() => {
