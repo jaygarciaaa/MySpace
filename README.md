@@ -6,3 +6,5 @@ MySpace is a simple Online Profile Portfolio.
   - https://jaygarciaaa.github.io/MySpace/
 
   YOLO
+
+will apply the update soon LOL
