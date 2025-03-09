@@ -11,7 +11,7 @@ window.addEventListener("load", function () {
                 offset = 120;
             } else if (this.innerText.includes("Experiences & Expertise")) {
                 targetId = "experienceAndExpertise";
-                offset = 80;
+                offset = 40;
             } else if (this.innerText.includes("My Career Ambitions")) {
                 targetId = "careerAmbitions";
                 offset = 30;
